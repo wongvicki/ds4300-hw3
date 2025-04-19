@@ -1,0 +1,8 @@
+website link: https://wongvicki.github.io/ds4300-hw3/index.html
+
+Style and Design Choices:
+- I chose a lavender theme for my website, choosing different shades for the headers/footers, background, and header text.
+- For my navigation bar, I made the font color white and upon hovering, the text is underlined.
+- The layout is centered.
+- Images are a reasonable size - small enough to not completely obstruct the text, but large enough to see clearly.
+- Images have rounded edges.
