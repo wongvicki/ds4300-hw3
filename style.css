@@ -1,72 +1,86 @@
+/* General Body Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f8fc;
-    color: #333;
+    background-color: #f6f0fa; /* soft lavender */
+    color: #3a2c4a; /* deep lavender-gray for text */
     line-height: 1.6;
     margin: 0;
     padding: 0;
   }
   
+  /* Navigation Bar */
   nav {
-    background-color: #005f99;
+    background-color: #c6b3e6; /* lavender purple */
     padding: 10px 20px;
     text-align: center;
   }
   
   nav a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    font-size: 1rem;
   }
   
   nav a:hover {
     text-decoration: underline;
   }
   
+  /* Header Styles */
   header {
     text-align: center;
     padding: 30px 10px 10px;
   }
   
-  h1 {
-    font-size: 2.5rem;
-    color: #002f4b;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    color: #003f5c;
+  h1, h2 {
+    color: #5c4d79; /* darker lavender */
   }
   
   h3 {
     font-size: 1.2rem;
-    color: #005f99;
+    color: #7e6ca5;
   }
   
+  /* Section Content */
   section {
     max-width: 800px;
     margin: auto;
     padding: 20px;
   }
   
+  /* Styled Images */
   .main-image {
-    max-width: 100%;
+    max-width: 300px; /* smaller image size */
     height: auto;
-    border-radius: 12px;
-    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
+  /* List Styles */
   ul {
     padding-left: 20px;
     list-style-type: disc;
+    color: #4b3b60;
   }
   
+  /* Footer Styling */
   footer {
-    background-color: #e3eef9;
+    background-color: #e6daf7;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
     font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: #5c4d79;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
   }
   
