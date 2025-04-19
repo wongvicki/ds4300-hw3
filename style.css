@@ -1,16 +1,14 @@
-/* General Body Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f6f0fa; /* soft lavender */
-    color: #3a2c4a; /* deep lavender-gray for text */
+    background-color: #f6f0fa;
+    color: #3a2c4a;
     line-height: 1.6;
     margin: 0;
     padding: 0;
   }
   
-  /* Navigation Bar */
   nav {
-    background-color: #c6b3e6; /* lavender purple */
+    background-color: #c6b3e6;
     padding: 10px 20px;
     text-align: center;
   }
@@ -27,14 +25,13 @@ body {
     text-decoration: underline;
   }
   
-  /* Header Styles */
   header {
     text-align: center;
     padding: 30px 10px 10px;
   }
   
   h1, h2 {
-    color: #5c4d79; /* darker lavender */
+    color: #5c4d79; 
   }
   
   h3 {
@@ -42,16 +39,14 @@ body {
     color: #7e6ca5;
   }
   
-  /* Section Content */
   section {
     max-width: 800px;
     margin: auto;
     padding: 20px;
   }
   
-  /* Styled Images */
   .main-image {
-    max-width: 300px; /* smaller image size */
+    max-width: 300px;
     height: auto;
     border-radius: 10px;
     display: block;
@@ -59,14 +54,12 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* List Styles */
   ul {
     padding-left: 20px;
     list-style-type: disc;
     color: #4b3b60;
   }
   
-  /* Footer Styling */
   footer {
     background-color: #e6daf7;
     text-align: center;
